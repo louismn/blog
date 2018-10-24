@@ -5,11 +5,13 @@
 ##Ce projet dont le but est de faire de nous des stars sur les Réseaux Sociaux avec un blog méchamment stylay fonctionne avec plusieurs tables de base de données. 
 
 ## Requirements
+
 ### `Ruby Version 2.5.1`
+
 ### `Ruby on Rails Version 5.2.1`
 
-## Pour faire tourner le blog `git clone https://github.com/louismn/blog`
-## Puis `bundle install`
+### Pour faire tourner le blog `git clone https://github.com/louismn/blog`
+### Puis `bundle install`
 
 ## Contenu
 
