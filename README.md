@@ -1,42 +1,40 @@
 # README
 
-Réalisé par Priscille de la Tour et Louis Martin du Nord 
+##Réalisé par Priscille de la Tour et Louis Martin du Nord 
 
-Ce projet dont le but est de faire de nous des stars sur les Réseaux Sociaux fonctionne avec plusieurs tables de base de données :
+##Ce projet dont le but est de faire de nous des stars sur les Réseaux Sociaux avec un blog méchamment stylay fonctionne avec plusieurs tables de base de données. 
+
+## Requirements
+### `Ruby Version 2.5.1`
+### `Ruby on Rails Version 5.2.1`
+
+## Pour faire tourner le blog `git clone https://github.com/louismn/blog`
+## Puis `bundle install`
+
+## Contenu
+
+## Une table users 
+### qui contient 
+- un firstname
+- un lastname 
+- un email
+
+## une table articles 
+### qui contient 
+- un titre 
+- du contenu 
+### il depend du users et de catégories
+
+## Une table catégories 
+### qui contient 
+- le nom des catégories
 
 
-Une table Users 
-qui contient un firstname, un lastname, et un email
+## Une table comments
+### qui contient
+- le contenu du commentaire
+### il depend d'articles et users
 
-une table Article 
-qui contient un titre et du contenu 
-il depend du user et de catégorie
-
-Une table Catégorie 
-
-Une table Comment
-
-une table Like
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## une table likes
+### qui ne contient pas d'attributs
+### il dépend de articles et users
