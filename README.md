@@ -1,5 +1,7 @@
 # README
 
+Réalisé par Priscille de la Tour et Louis Martin du Nord 
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
