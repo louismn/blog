@@ -11,13 +11,21 @@ require 'faker'
   user = User.create!(firstname:Faker::Name.first_name, lastname:Faker::Name.last_name, email:Faker::Internet.email)
 end
 
-10.times do |index|
-	article = Article.create!(title:"Title#{index}", content:"content#{index}")
+5.times do |index|
+	category = Category.create!(name:Faker::Artist.name)
 end
 
-15.times do |index|
-	comment = Comment.create!(content:"Content#{index}")
+10.times do |index|
+	article = Article.create!(title:"Title#{index}", content:"content#{index}", user:"user#{index}", category:"category#{index}")
 end
-15.times do |index|
-	like = Like.create!(id: "#{index}")
-end
+
+
+
+
+# # 15.times do |index|
+# # 	comment = Comment.create!(content:"Content#{index}", article:Faker::Number.between(1, 10))
+# end
+# 15.times do |index|
+# 	like = Like.create!(id: "#{index}")
+# end
+
