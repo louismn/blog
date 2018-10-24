@@ -1,8 +1,8 @@
 # README
 
-##Réalisé par Priscille de la Tour et Louis Martin du Nord 
+## Réalisé par Priscille de la Tour (@pris) et Louis Martin du Nord 
 
-##Ce projet dont le but est de faire de nous des stars sur les Réseaux Sociaux avec un blog méchamment stylay fonctionne avec plusieurs tables de base de données. 
+## Ce projet dont le but est de faire de nous des stars sur les Réseaux Sociaux avec un blog méchamment stylay fonctionne avec plusieurs tables de base de données. 
 
 ## Requirements
 
