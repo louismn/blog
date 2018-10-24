@@ -16,16 +16,13 @@ end
 end
 
 10.times do |index|
-	article = Article.create!(title:"Title#{index}", content:"content#{index}", user:"user#{index}", category:"category#{index}")
+	article = Article.create!(title:"Title#{index}", content:"content#{index}", user_id: 3, category_id: 3)
 end
 
-
-
-
-# # 15.times do |index|
-# # 	comment = Comment.create!(content:"Content#{index}", article:Faker::Number.between(1, 10))
-# end
-# 15.times do |index|
-# 	like = Like.create!(id: "#{index}")
-# end
+15.times do |index|
+	comment = Comment.create!(content:"Content#{index}",user_id:Faker::Number.between(1, 10), article_id:Faker::Number.between(1, 10))
+end
+15.times do |index|
+	like = Like.create!(user_id:Faker::Number.between(1, 10), article_id:Faker::Number.between(1, 10))
+end
 
